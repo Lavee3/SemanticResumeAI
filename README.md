@@ -1,27 +1,26 @@
-# 🔍 Semantic Resume Matcher
+## Semantic Resume Matcher
 
 > An AI-powered recruitment assistant that semantically matches resumes to job descriptions using **Endee Vector Database**, sentence embeddings, and a RAG pipeline — going far beyond traditional keyword matching.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Traditional ATS (Applicant Tracking Systems) rely on keyword matching, which causes qualified candidates to get filtered out simply because they used different words. This project solves that by understanding the **contextual meaning** between resumes and job descriptions using vector embeddings.
 
+
+## Features
+
+ Upload multiple PDF resumes
+Semantic similarity matching using Sentence Transformers
+Vector storage and search powered by **Endee Vector DB**
+Match score with visual progress bars
+Color-coded ranking (High / Medium / Low match)
+Clean Streamlit UI — no technical knowledge needed to use
+
 ---
 
-## ✨ Features
-
-- 📄 Upload multiple PDF resumes
-- 🧠 Semantic similarity matching using Sentence Transformers
-- ⚡ Vector storage and search powered by **Endee Vector DB**
-- 📊 Match score with visual progress bars
-- 🟢 Color-coded ranking (High / Medium / Low match)
-- 🖥️ Clean Streamlit UI — no technical knowledge needed to use
-
----
-
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 PDF Resumes
@@ -47,7 +46,7 @@ Streamlit Dashboard (streamlit_app.py)
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology |
 |---|---|
@@ -60,7 +59,7 @@ Streamlit Dashboard (streamlit_app.py)
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 semantic-resume-matcher/
@@ -77,7 +76,7 @@ semantic-resume-matcher/
 
 ---
 
-## 🚀 Setup & Running
+##Setup & Running
 
 ### Prerequisites
 - Python 3.8+
@@ -111,7 +110,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 1. **Upload Resumes** — Use the sidebar to upload one or more PDF resumes
 2. **Click "Index Resumes"** — Resumes are embedded and stored in Endee
@@ -140,7 +139,7 @@ client.create_index(
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 #1  resume2.pdf  —  Score: 0.71  🟢 High Match
@@ -150,7 +149,7 @@ client.create_index(
 
 ---
 
-## 📦 requirements.txt
+## requirements.txt
 
 ```
 endee
@@ -163,7 +162,7 @@ python-dotenv
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Endee Vector Database](https://github.com/endee-io/endee) — high-performance open source vector DB
 - [Sentence Transformers](https://www.sbert.net/) — state-of-the-art sentence embeddings
