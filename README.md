@@ -1,3 +1,4 @@
+## PROJECT LINK: https://github.com/Lavee3/SemanticResumeAI
 ## Semantic Resume Matcher
 
 > An AI-powered recruitment assistant that semantically matches resumes to job descriptions using **Endee Vector Database**, sentence embeddings, and a RAG pipeline — going far beyond traditional keyword matching.
